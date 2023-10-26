@@ -10,7 +10,7 @@ fun main()
     else
         println("you can drive a Car")
      */
-//    multiple if else
+    //    multiple if else
     if(age < 18)
         println("you can not drive a Car")
     else if(age >18)
@@ -19,10 +19,11 @@ fun main()
     {
        println("$age just wait and apply for driving licence")
     }
-
-//    There is no ternary operator condition ? then : else in Kotlin.
-//    Instead, if can be used as an expression.
-//    When using if as an expression, there are no curly braces {}:
+    /*
+   There is no ternary operator condition ? then : else in Kotlin.
+   Instead, if can be used as an expression.
+   When using if as an expression, there are no curly braces {}:
+    */
     val A = 5
     val B = 9
     val C = 2
@@ -33,6 +34,7 @@ fun main()
     else
          C
     println("Maximum of $A ,$B and $C is $max")
+<<<<<<< HEAD
 
     //Qus: Decide Grade based on student marks
     println("Enter student total mark : ");
@@ -57,3 +59,6 @@ fun main()
     }
     println("Student Grade is $grade")
 }
+=======
+}
+>>>>>>> 079de2b964e7ffdf0de3f6a109f013fea77fb114
