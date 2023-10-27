@@ -34,8 +34,6 @@ fun main()
     else
          C
     println("Maximum of $A ,$B and $C is $max")
-<<<<<<< HEAD
-
     //Qus: Decide Grade based on student marks
     println("Enter student total mark : ");
     val mark = readln().toInt()
@@ -59,6 +57,3 @@ fun main()
     }
     println("Student Grade is $grade")
 }
-=======
-}
->>>>>>> 079de2b964e7ffdf0de3f6a109f013fea77fb114
