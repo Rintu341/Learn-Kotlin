@@ -20,4 +20,10 @@ fun main()
     val number1 = readln().toInt()
     println("Number is $number1")
 
+    val userInput = readLine() // readline return null when end of file reached  or return input string
+    println(userInput?.uppercase())
+//    println(userInput?.toInt()?.minus(5)) // it throw an exception because of i tried to convert string to Int
+    val myVariable = readln().toInt();
+    println(myVariable.plus(7).toString().uppercase())
+
 }
