@@ -1,8 +1,14 @@
-fun main() {
-    val user = User("Sujan")
-    val user2 = User("Saheb")
 
-    println(user2.hashCode())
-    println(user.toString())
+data class employee(var E_name:String,var E_age:Int)
+
+fun main() {
+    val emp = employee("Sujan",21)
+    println(emp.E_name)
+    println(emp.E_age)
+
+    val empCopy = emp.copy()
+    println(empCopy)
+    empCopy.E_name = "Saheb"
+    println(empCopy)
+
 }
-data class User(val name :String) //Data class
