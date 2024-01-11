@@ -12,6 +12,14 @@ fun main() {
     mutableList.remove("SSD")
     println(mutableList)
 
+    println(mutableList.size)
+
+    for(index in 0 until mutableList.size)
+    {
+        println("item is ${mutableList[index]} is in index $index")
+    }
+    
+
 
 
 }
