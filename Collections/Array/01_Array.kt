@@ -20,6 +20,7 @@ fun main() {
 
     //Contain all integers
     val intNum : IntArray = intArrayOf(1,3,7,12,4)
+    println(intNum) // print Address of intNum
 //    printValues(intNum)
 
 //    val IntNum = arrayOf<Int>(4,6,8)
